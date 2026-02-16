@@ -1,0 +1,16 @@
+# Jonathon Purvis and Emily Alexa Gotiangco
+# Description of a TM (initial state 1) that, given a
+# string of a's and b's, "erases" all the occurrences
+# of b's, ensuring all of the a's are adjacent.
+
+1 b 1 b R
+1 a 2 b L
+2 a 2 a L
+2 b 2 b L
+2 - 3 a R
+3 a 3 a R
+3 b 1 b R
+1 - 4 - L
+4 b 4 - L
+4 a 4 a L
+4 - 5 - R

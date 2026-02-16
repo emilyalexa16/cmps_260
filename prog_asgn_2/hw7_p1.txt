@@ -1,0 +1,19 @@
+# Jonathon Purvis and Emily Alexa Gotiangco
+# Description of a TM (initial state 1) that, given a
+# string of a's and b's, arranges all the a's so that
+# they proceed all the occurrences of b's.
+
+1 a 1 a R
+1 b 2 b R
+2 b 2 b R
+2 a 3 b L
+3 b 4 a L
+4 a 4 a L
+4 b 4 b L
+4 - 1 - R
+1 - 5 - L
+2 - 5 - L
+5 a 5 a L
+5 b 5 b L
+5 - 6 - R
+

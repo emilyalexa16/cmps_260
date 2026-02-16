@@ -1,0 +1,14 @@
+# Description of a TM (initial state 1) that, given a
+# string of a's and b's, replaces every 'b' by an 'a'
+1 a 1 a R
+1 b 2 b R
+2 b 2 b R
+2 a 3 b L
+3 b 3 b L
+3 a 3 a L
+3 - 1 a R
+1 - 4 - L
+2 - 4 - L
+4 b 4 b L
+4 a 4 a L
+4 - 5 - R
